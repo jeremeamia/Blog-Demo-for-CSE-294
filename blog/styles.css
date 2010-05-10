@@ -1,0 +1,71 @@
+body {
+	background-color: #eef;
+	color: #223;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	line-height: 1;
+}
+input, textarea {
+	color: #334;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	margin-bottom: 1em;
+	width: 100%;
+}
+label {
+	display: block;
+	line-height: 1.25em;
+}
+h1 {
+	color: #114;
+	font-size: 2.5em;
+	margin: 0.5em 0;
+}
+div.blog {
+	margin: 0 auto;
+	width: 650px;
+}
+div.post {
+	margin-bottom: 1.5em;
+}
+div.post p, div.post h2 {
+	line-height: 1.5em;
+	margin: 0;
+}
+div.content p {
+	margin-bottom: 1em;
+}
+div.post p.meta {
+	color: #99c;
+	font-size: smaller;
+}
+div.comment {
+	margin: 0 0 30px 10px;
+	min-height: 85px;
+}
+div.comment img {
+	float: left;
+	margin-top: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+div.comment p {
+	margin-left: 100px;
+}
+hr {
+	background-color: #99c;
+	border: 0;
+	color: #99c;
+	height: 1px;
+}
+ul.errors {
+	background-color: #fee;
+	border: 2px #c00 solid;
+	line-height: 1.35em;
+	list-style: none;
+	padding: 10px;
+}
+div.pagination {
+	margin: 0.5em 0;
+	text-align: center;
+}
